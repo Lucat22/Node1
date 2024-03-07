@@ -31,7 +31,7 @@ app.post('/lista1/ex1', function(req, res){
 
         retorno = {
             codigo: 'SOMA_ELEITORES',
-            mensagem: "A soma dos votos não pode passar o total de eleitores , FLAMENGO!"
+            mensagem: "A soma dos votos não pode passar o total de eleitores , MENGO!"
         }
 
         res.status(400).json(retorno)
